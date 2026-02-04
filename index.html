@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Thalia Modas — Catálogo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="img/thalia-2.png" alt="Thalia Modas" class="logo">
+        <div class="tagline">Elegância e estilo para todos os momentos.</div>
+      </div>
+      <nav class="main-nav" aria-label="Menu principal">
+        <a href="#home">Início</a>
+        <a href="#products">Produtos</a>
+        <a href="#contact">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <img src="img/thalia-2.png" alt="Logo Thalia Modas" class="hero-logo">
+        <div class="hero-content">
+          <h1 class="hero-title">Revele seu estilo com peças que inspiram.</h1>
+          <p class="hero-sub">Coleções selecionadas em bolsas, sapatos, camisas, shorts e muito mais.</p>
+          <a class="btn btn-pink" href="#products">Ver produtos</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="products" class="products-section container">
+      <h2 class="section-title">Catálogo</h2>
+      <div id="productsGrid" class="products-grid" aria-live="polite">
+        <!-- Produtos serão renderizados aqui via JavaScript -->
+      </div>
+    </section>
+
+    <!-- Modal de detalhes -->
+    <div id="productModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="modal-overlay" id="modalOverlay"></div>
+      <div class="modal-panel">
+        <button class="modal-close" id="modalClose" aria-label="Fechar">×</button>
+        <div class="modal-body">
+          <img id="modalImage" src="" alt="" class="modal-image">
+          <div class="modal-info">
+            <h3 id="modalTitle"></h3>
+            <p id="modalDesc"></p>
+            <p class="modal-price" id="modalPrice"></p>
+            <div class="modal-actions">
+              <a href="https://wa.me/5598986291605" id="whatsappLink" class="btn btn-pink" target="_blank" rel="noopener">Tenho interesse</a>
+              <button class="btn btn-outline" id="modalCloseBtn">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="contact" class="contact-section container">
+      <h2 class="section-title">Contato</h2>
+      <p>Atendimento via WhatsApp. Clique em qualquer produto e escolha "Tenho interesse" para falar conosco.</p>
+      
+      <div class="contact-whatsapp">
+        <a id="whatsappFooter" class="whatsapp-footer" href="https://wa.me/5598986291605" target="_blank" rel="noopener" aria-label="Abrir WhatsApp">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M20.52 3.48A11.85 11.85 0 0012 0C5.373 0 .021 5.352 0 12.002a11.9 11.9 0 001.7 6.016L0 24l6.214-1.627A11.93 11.93 0 0012 24c6.627 0 12-5.373 12-11.998 0-3.197-1.244-6.197-3.48-8.902zM12 21.6c-1.05 0-2.08-.238-3.01-.686l-.215-.104-3.69.967.985-3.602-.14-.235A8.328 8.328 0 013.6 12C3.6 7.03 7.03 3.6 12 3.6c4.97 0 8.4 3.43 8.4 8.4 0 4.97-3.43 8.4-8.4 8.4z" fill="currentColor"/>
+            <path d="M17.07 14.66c-.29-.15-1.72-.84-1.99-.94-.27-.1-.47-.15-.67.15s-.77.94-.95 1.13c-.17.19-.33.21-.62.07-.29-.15-1.22-.45-2.32-1.44-.86-.77-1.44-1.72-1.61-2.01-.17-.29-.02-.45.13-.6.13-.13.29-.33.44-.5.15-.17.2-.29.3-.48.1-.19.05-.36-.02-.51-.07-.15-.67-1.62-.92-2.22-.24-.58-.48-.5-.67-.51l-.57-.01c-.19 0-.5.07-.77.36-.27.29-1.03 1.01-1.03 2.46 0 1.45 1.06 2.85 1.21 3.05.15.19 2.09 3.38 5.07 4.74 2.98 1.36 2.98.91 3.53.86.55-.06 1.77-.72 2.02-1.41.24-.69.24-1.28.17-1.41-.07-.13-.27-.19-.57-.34z" fill="currentColor"/>
+          </svg>
+          <span class="whatsapp-label">Fale conosco</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Thalia Modas — Todos os direitos reservados</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <!-- Botão flutuante do WhatsApp -->
+  <a id="whatsappFloat" class="whatsapp-float" href="https://wa.me/5598986291605" target="_blank" rel="noopener" aria-label="Abrir WhatsApp">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M20.52 3.48A11.85 11.85 0 0012 0C5.373 0 .021 5.352 0 12.002a11.9 11.9 0 001.7 6.016L0 24l6.214-1.627A11.93 11.93 0 0012 24c6.627 0 12-5.373 12-11.998 0-3.197-1.244-6.197-3.48-8.902zM12 21.6c-1.05 0-2.08-.238-3.01-.686l-.215-.104-3.69.967.985-3.602-.14-.235A8.328 8.328 0 013.6 12C3.6 7.03 7.03 3.6 12 3.6c4.97 0 8.4 3.43 8.4 8.4 0 4.97-3.43 8.4-8.4 8.4z" fill="#fff"/>
+      <path d="M17.07 14.66c-.29-.15-1.72-.84-1.99-.94-.27-.1-.47-.15-.67.15s-.77.94-.95 1.13c-.17.19-.33.21-.62.07-.29-.15-1.22-.45-2.32-1.44-.86-.77-1.44-1.72-1.61-2.01-.17-.29-.02-.45.13-.6.13-.13.29-.33.44-.5.15-.17.2-.29.3-.48.1-.19.05-.36-.02-.51-.07-.15-.67-1.62-.92-2.22-.24-.58-.48-.5-.67-.51l-.57-.01c-.19 0-.5.07-.77.36-.27.29-1.03 1.01-1.03 2.46 0 1.45 1.06 2.85 1.21 3.05.15.19 2.09 3.38 5.07 4.74 2.98 1.36 2.98.91 3.53.86.55-.06 1.77-.72 2.02-1.41.24-.69.24-1.28.17-1.41-.07-.13-.27-.19-.57-.34z" fill="#fff"/>
+    </svg>
+  </a>
+</body>
+</html>
