@@ -202,7 +202,6 @@ function handleProductCardEvent(e) {
   }
 }
 productsGrid.addEventListener('click', handleProductCardEvent);
-productsGrid.addEventListener('touchstart', handleProductCardEvent);
 
 // Fechar modal por overlay, botão e tecla ESC
 modalOverlay.addEventListener('click', closeModal);
