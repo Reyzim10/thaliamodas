@@ -26,8 +26,8 @@ const products = [
       'https://http2.mlstatic.com/D_NQ_NP_2X_776306-MLB76910798838_062024-F-mochila-feminina-escolar-passeio-grande-capacidade-jovem.webp'
     ],
     desc: 'Mochila feminina grande capacidade, ideal para escola e passeios. Variações de cor disponíveis.'
-  }
-  ,{
+  },
+  {
     id: 3,
     name: 'Mochila Feminina Escolar Grande Espaçosa Impermeável Robusta',
     category: 'Mochilas',
@@ -38,6 +38,52 @@ const products = [
       'https://http2.mlstatic.com/D_NQ_NP_2X_768431-MLB81341037367_122024-F-mochila-feminina-escolar-grande-espacosa-impermeavel-robusta.webp'
     ],
     desc: 'Mochila feminina grande, espaçosa, robusta e impermeável. Disponível em várias cores.'
+  },
+  {
+    id: 4,
+    name: 'Mochila De Costa Escolar Juvenil Resistente Femenina Grande',
+    category: 'Mochilas',
+    price: 'R$ 97,90',
+    images: [
+      'https://http2.mlstatic.com/D_NQ_NP_2X_832610-MLB93130996528_092025-F-mochila-de-costa-escolar-juvenil-resistente-femenina-grande.webp',
+      'https://http2.mlstatic.com/D_NQ_NP_2X_982518-MLB93130214526_092025-F-mochila-de-costa-escolar-juvenil-resistente-femenina-grande.webp',
+      'https://http2.mlstatic.com/D_NQ_NP_2X_923213-MLB93130709282_092025-F-mochila-de-costa-escolar-juvenil-resistente-femenina-grande.webp',
+      'https://http2.mlstatic.com/D_NQ_NP_2X_813908-MLB93130512144_092025-F-mochila-de-costa-escolar-juvenil-resistente-femenina-grande.webp'
+    ],
+    desc: 'Mochila de costa escolar juvenil feminina, resistente, grande e com várias opções de cores.'
+  }
+  ,{
+    id: 5,
+    name: 'Mochila Bolsa Escolar Passeio Menina Divisória Costas Grande Cor Mochila Lilás Desenho Do Tecido Tie Dye',
+    category: 'Mochilas',
+    price: 'R$ 125,90',
+    images: [
+      'https://http2.mlstatic.com/D_NQ_NP_2X_630934-MLA99982114515_112025-F.webp',
+      'https://http2.mlstatic.com/D_NQ_NP_2X_989966-MLA81943369223_012025-F.webp'
+    ],
+    desc: 'Mochila bolsa escolar passeio para menina, divisória nas costas, grande, cor lilás com desenho tie dye. Linda e espaçosa!'
+  }
+  ,{
+    id: 6,
+    name: 'Bolsa Feminina Grande Mochila Antfurto Impermeável Reforçada',
+    category: 'Mochilas',
+    price: 'R$ 96,90',
+    images: [
+      'https://http2.mlstatic.com/D_NQ_NP_2X_908943-MLB84762645389_052025-F-bolsa-feminina-grande-mochila-antfurto-impermeavel-reforcada.webp',
+      'https://http2.mlstatic.com/D_NQ_NP_2X_729634-MLB84462490774_052025-F-bolsa-feminina-grande-mochila-antfurto-impermeavel-reforcada.webp',
+      'https://http2.mlstatic.com/D_NQ_NP_2X_602467-MLB84462896188_052025-F-bolsa-feminina-grande-mochila-antfurto-impermeavel-reforcada.webp'
+    ],
+    desc: 'Bolsa feminina grande, modelo mochila, reforçada, impermeável e com sistema antifurto. Ideal para o dia a dia.'
+  }
+  ,{
+    id: 7,
+    name: 'Mochila Escolar Trabalho Reforçada Bolsa Feminina Passeio',
+    category: 'Mochilas',
+    price: 'R$ 96,90',
+    images: [
+      'https://http2.mlstatic.com/D_NQ_NP_2X_993937-MLB81186852920_122024-F-mochila-escolar-trabalho-reforcada-bolsa-feminina-passeio.webp'
+    ],
+    desc: 'Mochila escolar reforçada, ideal para trabalho, passeios e uso feminino. Espaçosa e resistente.'
   }
 ];
 
