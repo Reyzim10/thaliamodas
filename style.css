@@ -83,8 +83,8 @@ body{
   justify-content: center;
 }
 .hero-logo {
-  width: 140px;
-  max-width: 80vw;
+  width: 180px;
+  max-width: 90vw;
   border-radius: 12px;
   object-fit: contain;
   box-shadow: 0 8px 30px rgba(0,0,0,0.6);
@@ -110,11 +110,11 @@ body{
 /* Ajustes responsivos do hero: logo ao lado do texto em telas maiores */
 @media(min-width:760px){
   .hero-inner{flex-direction:row;align-items:center;gap:30px;justify-content:center;}
-  .hero-logo{width:200px;max-width:240px;margin:0;align-self:center;}
+  .hero-logo{width:260px;max-width:320px;margin:0;align-self:center;}
   .hero-content{align-items:center;text-align:center;}
 }
 @media(min-width:1024px){
-  .hero-logo{width:240px}
+  .hero-logo{width:320px}
 }
   .hero-content{align-items:center;text-align:center;}
 /* Products grid */
@@ -168,7 +168,7 @@ img{height:auto}
   .logo{height:46px}
   .hero{padding:36px 0}
   .hero-inner{align-items:center;justify-content:center;}
-  .hero-logo{margin:0 auto;display:block;max-width:90vw;align-self:center;}
+  .hero-logo{margin:0 auto;display:block;max-width:98vw;width:180px;align-self:center;}
   .card-media{height:180px}
 }
 
