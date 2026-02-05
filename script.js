@@ -62,6 +62,7 @@ function renderProducts(){
   products.forEach(prod => {
     const card = document.createElement('article');
     card.className = 'card';
+    card.dataset.id = prod.id;
     const imgSrc = (prod.images && prod.images.length) ? prod.images[0] : (prod.image || '');
     card.innerHTML = `
       <div class="card-media">
@@ -135,13 +136,27 @@ function closeModal(){
 }
 
 // Delegação de eventos para os botões "Ver detalhes"
-productsGrid.addEventListener('click', (e)=>{
+
+function handleProductCardEvent(e) {
+  // Se clicar/tocar no botão "Ver detalhes"
   const btn = e.target.closest('.btn-detail');
-  if(!btn) return;
-  const id = Number(btn.dataset.id);
-  const prod = products.find(p=>p.id===id);
-  if(prod) openModal(prod);
-});
+  if(btn){
+    e.stopPropagation();
+    const id = Number(btn.dataset.id);
+    const prod = products.find(p=>p.id===id);
+    if(prod) openModal(prod);
+    return;
+  }
+  // Se clicar/tocar no card (mas não no botão)
+  const card = e.target.closest('.card');
+  if(card){
+    const id = Number(card.dataset.id);
+    const prod = products.find(p=>p.id===id);
+    if(prod) openModal(prod);
+  }
+}
+productsGrid.addEventListener('click', handleProductCardEvent);
+productsGrid.addEventListener('touchstart', handleProductCardEvent);
 
 // Fechar modal por overlay, botão e tecla ESC
 modalOverlay.addEventListener('click', closeModal);
