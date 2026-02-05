@@ -11,7 +11,7 @@ const products = [
     id: 1,
     name: 'Mochila Bolsa Básica Notebook 16 Escolar Impermeável Grande Masculina',
     category: 'Mochilas',
-    price: 'R$ 87,90',
+    price: 'R$ 89,90',
     images: ['https://http2.mlstatic.com/D_NQ_NP_2X_659264-MLA105022132723_012026-F.webp'],
     desc: 'Mochila impermeável para notebook 16" com espaço amplo e bolsos organizadores.'
   },
@@ -19,7 +19,7 @@ const products = [
     id: 2,
     name: 'Mochila Feminina Escolar Passeio Grande Capacidade Jovem',
     category: 'Mochilas',
-    price: 'R$ 123,90',
+    price: 'R$ 118,90',
     images: [
       'https://http2.mlstatic.com/D_NQ_NP_2X_964299-MLB76910829802_062024-F-mochila-feminina-escolar-passeio-grande-capacidade-jovem.webp',
       'https://http2.mlstatic.com/D_NQ_NP_2X_633669-MLB77119877131_062024-F-mochila-feminina-escolar-passeio-grande-capacidade-jovem.webp',
@@ -31,7 +31,7 @@ const products = [
     id: 3,
     name: 'Mochila Feminina Escolar Grande Espaçosa Impermeável Robusta',
     category: 'Mochilas',
-    price: 'R$ 125,90',
+    price: 'R$ 119,90',
     images: [
       'https://http2.mlstatic.com/D_NQ_NP_2X_811893-MLB81073441080_122024-F-mochila-feminina-escolar-grande-espacosa-impermeavel-robusta.webp',
       'https://http2.mlstatic.com/D_NQ_NP_2X_827339-MLB81341036219_122024-F-mochila-feminina-escolar-grande-espacosa-impermeavel-robusta.webp',
