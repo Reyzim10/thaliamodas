@@ -84,8 +84,87 @@ const products = [
       'https://http2.mlstatic.com/D_NQ_NP_2X_993937-MLB81186852920_122024-F-mochila-escolar-trabalho-reforcada-bolsa-feminina-passeio.webp'
     ],
     desc: 'Mochila escolar reforçada, ideal para trabalho, passeios e uso feminino. Espaçosa e resistente.'
+  },
+  {
+    id: 8,
+    name: 'Tenis Academia Masculino Corrida Musculação Caminhada Treino',
+    category: 'Tênis',
+    price: 'R$ 96,90',
+    images: [
+      'https://http2.mlstatic.com/D_NQ_NP_2X_795952-MLB89590693736_082025-F-tenis-academia-masculino-corrida-musculaco-caminhada-treino.webp',
+      'https://http2.mlstatic.com/D_NQ_NP_2X_894560-MLB90027563431_082025-F-tenis-academia-masculino-corrida-musculaco-caminhada-treino.webp',
+      'https://http2.mlstatic.com/D_NQ_NP_2X_688110-MLB89589403178_082025-F-tenis-academia-masculino-corrida-musculaco-caminhada-treino.webp'
+    ],
+    desc: 'Tênis ideal para academia, corrida, musculação, caminhada e treino. Confortável e resistente, disponível em três variações.'
+  }
+  ,
+  {
+    id: 9,
+    name: 'Tenis Feminino Casual Branco Retrô Clássico Original Force',
+    category: 'Tênis',
+    price: 'R$ 104,90',
+    images: [
+      'https://http2.mlstatic.com/D_NQ_NP_2X_604173-MLB77383997348_072024-F-tenis-feminino-casual-branco-retr-classico-original-force.webp',
+      'https://http2.mlstatic.com/D_NQ_NP_2X_685999-MLB77599964621_072024-F-tenis-feminino-casual-branco-retr-classico-original-force.webp',
+      'https://http2.mlstatic.com/D_NQ_NP_2X_840928-MLB77384104880_072024-F-tenis-feminino-casual-branco-retr-classico-original-force.webp'
+    ],
+    desc: 'Tênis feminino casual branco, estilo retrô clássico, confortável e versátil para uso diário.'
+  },
+  {
+    id: 10,
+    name: 'Kit Tênis Esportivo Masculino Feminino Academia + Relógio',
+    category: 'Kits',
+    price: 'R$ 95,90',
+    images: [
+      'https://http2.mlstatic.com/D_NQ_NP_2X_731843-MLB105883082221_012026-F.webp',
+      'https://http2.mlstatic.com/D_NQ_NP_2X_933084-MLB74422417323_022024-F.webp',
+      'https://http2.mlstatic.com/D_NQ_NP_2X_731760-MLB74305712026_022024-F.webp'
+    ],
+    desc: 'Kit tênis esportivo unissex para academia com relógio incluso — ideal para treino e dia a dia.'
+  }
+  ,
+  {
+    id: 12,
+    name: 'Mochila Escolar Feminina Notebook Estilosa Antifurto Juvenil Cor Azul',
+    category: 'Mochilas',
+    price: 'R$ 92,90',
+    images: [
+      'https://http2.mlstatic.com/D_NQ_NP_2X_732532-MLA95585219615_102025-F.webp',
+      'https://http2.mlstatic.com/D_NQ_NP_2X_789006-MLA96221025904_102025-F.webp',
+      'https://http2.mlstatic.com/D_NQ_NP_2X_729035-MLA95070117716_102025-F.webp',
+      'https://http2.mlstatic.com/D_NQ_NP_2X_778630-MLA99429252198_112025-F.webp',
+      'https://http2.mlstatic.com/D_NQ_NP_2X_675864-MLA95192514124_102025-F.webp'
+    ],
+    desc: 'Mochila escolar feminina para notebook, estilosa e com antifurto; design juvenil na cor azul.'
+  },
+  {
+    id: 13,
+    name: 'Mochila Escolar Femenina Com Bicho De Pelúcia Ursinho',
+    category: 'Mochilas',
+    price: 'R$ 92,90',
+    images: [
+      'https://http2.mlstatic.com/D_NQ_NP_2X_633057-MLB93840071728_102025-F-mochila-escolar-femenina-com-bicho-de-pelucia-ursinho.webp',
+      'https://http2.mlstatic.com/D_NQ_NP_2X_840284-MLB94264242837_102025-F-mochila-escolar-femenina-com-bicho-de-pelucia-ursinho.webp',
+      'https://http2.mlstatic.com/D_NQ_NP_2X_858216-MLB93840319800_102025-F-mochila-escolar-femenina-com-bicho-de-pelucia-ursinho.webp',
+      'https://http2.mlstatic.com/D_NQ_NP_2X_822730-MLB93840140652_102025-F-mochila-escolar-femenina-com-bicho-de-pelucia-ursinho.webp',
+      'https://http2.mlstatic.com/D_NQ_NP_2X_627968-MLB93840299632_102025-F-mochila-escolar-femenina-com-bicho-de-pelucia-ursinho.webp'
+    ],
+    desc: 'Mochila escolar feminina com bicho de pelúcia ursinho. Charmosa e funcional.'
   }
 ];
+
+// produto adicionado: Tênis Feminino Polo
+products.push({
+  id: 11,
+  name: 'Tênis Feminino Polo Para Caminhada Academia Com Relogio',
+  category: 'Tênis',
+  price: 'R$ 88,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_708076-MLB79512715901_092024-F-tnis-feminino-polo-para-caminhada-academia-com-relogio.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_920265-MLB79512726543_092024-F-tnis-feminino-polo-para-caminhada-academia-com-relogio.webp'
+  ],
+  desc: 'Tênis feminino Polo, indicado para caminhada e academia; vem com relógio, confortável e leve.'
+});
 
 // Elementos do DOM
 const productsGrid = document.getElementById('productsGrid');
