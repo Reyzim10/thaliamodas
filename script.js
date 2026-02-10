@@ -166,6 +166,108 @@ products.push({
   desc: 'Tênis feminino Polo, indicado para caminhada e academia; vem com relógio, confortável e leve.'
 });
 
+// produto adicionado pelo usuário: Bicicleta Rosa Nathor Flower Infantil Aro 12
+products.push({
+  id: 14,
+  name: 'Bicicleta Rosa Nathor Flower Infantil Aro 12 Menina Cestinha',
+  category: 'Bicicletas',
+  price: 'R$ 428,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_642327-MLA99888118883_112025-F.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_681696-MLA84473405511_052025-F.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_791171-MLA84473319769_052025-F.webp'
+  ],
+  desc: 'Bicicleta infantil aro 12, cor rosa, com cestinha frontal. Ideal para meninas pequenas.'
+});
+
+// produto adicionado pelo usuário: Vestido Midi Três Maria Laise
+products.push({
+  id: 15,
+  name: 'Vestido Midi Três Maria Laise Modesto Elegante Luxo',
+  category: 'Vestidos',
+  price: 'R$ 96,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_996506-MLB89275726038_082025-F-vestido-midi-trs-maria-laise-modesto-elegante-luxo.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_697677-MLB89640709081_082025-F-vestido-midi-trs-maria-laise-modesto-elegante-luxo.webp'
+  ],
+  desc: 'Vestido midi três marias em laise, estilo modesto e elegante.'
+});
+
+// produto adicionado pelo usuário: Vestido Moda Evangélica Godê Mídi De Tule Poá Manga Curta
+products.push({
+  id: 16,
+  name: 'Vestido Moda Evangélica Godê Mídi De Tule Poá Manga Curta',
+  category: 'Vestidos',
+  price: 'R$ 104,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_722374-MLB106141344694_022026-F-vestido-moda-evangelica-god-midi-de-tule-poa-manga-curta.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_939637-MLB105449076793_012026-F-vestido-moda-evangelica-god-midi-de-tule-poa-manga-curta.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_987214-MLB87488138829_072025-F-vestido-moda-evangelica-god-midi-de-tule-poa-manga-curta.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_852719-MLB87161509440_072025-F-vestido-moda-evangelica-god-midi-de-tule-poa-manga-curta.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_836549-MLB99607449260_122025-F-vestido-moda-evangelica-god-midi-de-tule-poa-manga-curta.webp'
+  ],
+  desc: 'Vestido godê mídi de tule com estampa poá, manga curta — estilo moda evangélica.'
+});
+
+// produto adicionado pelo usuário: Vestido Midi Moda Cristã Evangelico Casual Crepe De Malha
+products.push({
+  id: 17,
+  name: 'Vestido Midi Moda Cristã Evangelico Casual Crepe De Malha',
+  category: 'Vestidos',
+  price: 'R$ 105,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_978738-MLB85357062436_062025-F-vestido-midi-moda-crist-evangelico-casual-crepe-de-malha.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_983959-MLB85882549675_062025-F-vestido-midi-moda-crist-evangelico-casual-crepe-de-malha.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_899076-MLB85663525909_062025-F-vestido-midi-moda-crist-evangelico-casual-crepe-de-malha.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_688802-MLB85663569841_062025-F-vestido-midi-moda-crist-evangelico-casual-crepe-de-malha.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_612330-MLB85883238899_062025-F-vestido-midi-moda-crist-evangelico-casual-crepe-de-malha.webp'
+  ],
+  desc: 'Vestido mídi em crepe de malha, estilo cristão/evangélico, casual e elegante.'
+});
+
+// produto adicionado pelo usuário: Vestido Curto De Ribana Feminino Rovitex Preto
+products.push({
+  id: 18,
+  name: 'Vestido Curto De Ribana Feminino Rovitex Preto',
+  category: 'Vestidos',
+  price: 'R$ 95,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_744817-MLB95345788195_102025-F-vestido-curto-de-ribana-feminino-rovitex-preto.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_723746-MLB94905215578_102025-F-vestido-curto-de-ribana-feminino-rovitex-preto.webp'
+  ],
+  desc: 'Vestido curto de ribana feminino da Rovitex, cor preta, casual e confortável.'
+});
+
+// produto adicionado pelo usuário: Vestido Feminino Curto Tubinho Alfaiataria Elegante Fashion
+products.push({
+  id: 19,
+  name: 'Vestido Feminino Curto Tubinho Alfaiataria Elegante Fashion',
+  category: 'Vestidos',
+  price: 'R$ 94,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_790961-MLB103145663283_122025-F-vestido-feminino-curto-tubinho-alfaiataria-elegante-fashion.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_775695-MLB99995028400_122025-F-vestido-feminino-curto-tubinho-alfaiataria-elegante-fashion.webp'
+  ],
+  desc: 'Vestido curto tubinho em alfaiataria, elegante e fashion. Ideal para ocasiões casuais e sociais.'
+});
+
+// produto adicionado pelo usuário: Vestido Feminino Midi Manga Curta Acinturado Modelador Verão
+products.push({
+  id: 20,
+  name: 'Vestido Feminino Midi Manga Curta Acinturado Modelador Verão',
+  category: 'Vestidos',
+  price: 'R$ 91,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_913580-MLB100478939459_122025-F-vestido-feminino-midi-manga-curta-acinturado-modelador-vero.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_700773-MLB102477136658_122025-F-vestido-feminino-midi-manga-curta-acinturado-modelador-vero.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_600468-MLB99989363870_122025-F-vestido-feminino-midi-manga-curta-acinturado-modelador-vero.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_809066-MLB103428444389_012026-F-vestido-feminino-midi-manga-curta-acinturado-modelador-vero.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_897711-MLB100478909827_122025-F-vestido-feminino-midi-manga-curta-acinturado-modelador-vero.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_955908-MLB102476559130_122025-F-vestido-feminino-midi-manga-curta-acinturado-modelador-vero.webp'
+  ],
+  desc: 'Vestido mídi acinturado com manga curta, modelador, ideal para verão.'
+});
+
 // Elementos do DOM
 const productsGrid = document.getElementById('productsGrid');
 const modal = document.getElementById('productModal');
