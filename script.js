@@ -342,6 +342,40 @@ products.push({
   desc: 'Vestido curto ajustado com decote V profundo, bodycon sexy para festas e ocasiões noturnas.'
 });
 
+// produto novo: Vestido Tubinho Feminino Festas Decote Drapeado Costas Nuas
+products.push({
+  id: 24,
+  name: 'Vestido Tubinho Feminino Festas Decote Drapeado Costas Nuas',
+  category: 'Vestidos',
+  price: 'R$ 89,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_672828-MLB96395053907_102025-F.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_732722-MLB106665801275_022026-F.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_649778-MLB94484872569_102025-F.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_989043-MLB94484878325_102025-F.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_835816-MLB106056723936_022026-F.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_706004-MLB94058097998_102025-F.webp'
+  ],
+  desc: 'Vestido tubinho feminino para festas com decote drapeado e costas nuas. Elegante e sofisticado.'
+});
+
+// produto novo: Vestido Reto Alcinha Tubinho Tendencia Moda Blogueira Trend
+products.push({
+  id: 26,
+  name: 'Vestido Reto Alcinha Tubinho Tendencia Moda Blogueira Trend',
+  category: 'Vestidos',
+  price: 'R$ 74,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_643648-MLB85885870209_062025-F-vestido-reto-alcinha-tubinho-tendencia-moda-blogueira-trend.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_634078-MLB85884209333_062025-F-vestido-reto-alcinha-tubinho-tendencia-moda-blogueira-trend.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_808120-MLB85575496382_062025-F-vestido-reto-alcinha-tubinho-tendencia-moda-blogueira-trend.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_834992-MLB85883084469_062025-F-vestido-reto-alcinha-tubinho-tendencia-moda-blogueira-trend.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_715543-MLB85884348445_062025-F-vestido-reto-alcinha-tubinho-tendencia-moda-blogueira-trend.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_793889-MLB85358641550_062025-F-vestido-reto-alcinha-tubinho-tendencia-moda-blogueira-trend.webp'
+  ],
+  desc: 'Vestido reto alcinha tubinho, tendência moda blogueira, confortável e versátil.'
+});
+
 // Elementos do DOM
 const productsGrid = document.getElementById('productsGrid');
 const modal = document.getElementById('productModal');
