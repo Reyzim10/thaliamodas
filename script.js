@@ -211,7 +211,7 @@ products.push({
 
 // produto adicionado pelo usuário: Bicicleta Rosa Nathor Flower Infantil Aro 12
 products.push({
-  id: 14,
+  id: 23,
   name: 'Bicicleta Rosa Nathor Flower Infantil Aro 12 Menina Cestinha',
   category: 'Bicicletas',
   price: 'R$ 428,90',
@@ -225,7 +225,7 @@ products.push({
 
 // produto adicionado pelo usuário: Vestido Midi Três Maria Laise
 products.push({
-  id: 15,
+  id: 25,
   name: 'Vestido Midi Três Maria Laise Modesto Elegante Luxo',
   category: 'Vestidos',
   price: 'R$ 96,90',
@@ -238,7 +238,7 @@ products.push({
 
 // produto adicionado pelo usuário: Vestido Moda Evangélica Godê Mídi De Tule Poá Manga Curta
 products.push({
-  id: 16,
+  id: 27,
   name: 'Vestido Moda Evangélica Godê Mídi De Tule Poá Manga Curta',
   category: 'Vestidos',
   price: 'R$ 104,90',
@@ -374,6 +374,137 @@ products.push({
     'https://http2.mlstatic.com/D_NQ_NP_2X_793889-MLB85358641550_062025-F-vestido-reto-alcinha-tubinho-tendencia-moda-blogueira-trend.webp'
   ],
   desc: 'Vestido reto alcinha tubinho, tendência moda blogueira, confortável e versátil.'
+});
+
+// produto novo: Vestido Feminino Soltinho Curto Frente Única
+products.push({
+  id: 28,
+  name: 'Vestido Feminino Soltinho Curto Frente Única Leve Elegante',
+  category: 'Vestidos',
+  price: 'R$ 68,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_746976-MLB105977883350_022026-F-vestido-feminino-soltinho-curto-frente-unica-leve-elegante.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_897154-MLB97536919498_112025-F-vestido-feminino-soltinho-curto-frente-unica-leve-elegante.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_730261-MLB98001992381_112025-F-vestido-feminino-soltinho-curto-frente-unica-leve-elegante.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_668583-MLB104798835190_012026-F-vestido-feminino-soltinho-curto-frente-unica-leve-elegante.webp'
+  ],
+  desc: 'Vestido feminino soltinho curto frente única, leve e elegante. Ideal para dias quentes.'
+});
+
+// produto adicionado pelo usuário: Conjunto Shorts E Colete Feminino
+products.push({
+  id: 29,
+  name: 'Conjunto Shorts E Colete Feminino Alfaiataria Elegante',
+  category: 'Conjuntos',
+  price: 'R$ 96,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_663252-MLB101492278038_122025-F.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_849684-MLB100362373155_122025-F.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_826242-MLB93407016891_092025-F.webp'
+  ],
+  desc: 'Conjunto Shorts E Colete Feminino Alfaiataria Elegante'
+});
+
+// produto adicionado pelo usuário: Kit 2 Shorts Feminino Alfaiataria Cinto Bolsos Tendência
+products.push({
+  id: 30,
+  name: 'Kit 2 Shorts Feminino Alfaiataria Cinto Bolsos Tendência',
+  category: 'Shorts',
+  price: 'R$ 94,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_923892-MLB80130788996_112024-F-kit-2-shorts-feminino-alfaiataria-cinto-bolsos-tendncia.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_804733-MLB84503478589_052025-F-kit-2-shorts-feminino-alfaiataria-cinto-bolsos-tendncia.webp'
+  ],
+  desc: 'Kit 2 Shorts Feminino Alfaiataria com cinto e bolsos, tendência de moda.'
+});
+
+// produto adicionado pelo usuário: Kit 2 Shorts Feminino Alfaiataria Social Cintura Alta
+products.push({
+  id: 31,
+  name: 'Kit 2 Shorts Feminino Alfaiataria Social Cintura Alta',
+  category: 'Shorts',
+  price: 'R$ 94,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_944585-MLB93749423214_102025-F.webp'
+  ],
+  desc: 'Kit com 2 shorts femininos alfaiataria social, cintura alta. Elegância e conforto.'
+});
+
+// produto adicionado pelo usuário: Short Feminino De Linho Moda Verao Bolsos Elegante
+products.push({
+  id: 32,
+  name: 'Short Feminino De Linho Moda Verao Bolsos Elegante',
+  category: 'Shorts',
+  price: 'R$ 68,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_824297-MLB91291103776_092025-F-short-feminino-de-linho-moda-verao-bolsos-elegante.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_840448-MLB91688089361_092025-F-short-feminino-de-linho-moda-verao-bolsos-elegante.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_600939-MLB91687602765_092025-F-short-feminino-de-linho-moda-verao-bolsos-elegante.webp'
+  ],
+  desc: 'Short feminino de linho, moda verão com bolsos, elegante.'
+});
+
+// produto adicionado pelo usuário: Short Mon 100% Boyfriend Meia Coxa Cintura Alta Feminino
+products.push({
+  id: 33,
+  name: 'Short Mon 100% Boyfriend Meia Coxa Cintura Alta Feminino',
+  category: 'Shorts',
+  price: 'R$ 69,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_728703-MLB89846858982_082025-F-short-mon-100-boyfriend-meia-coxa-cintura-alta-feminino.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_660088-MLB105266517481_012026-F-short-mon-100-boyfriend-meia-coxa-cintura-alta-feminino.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_672065-MLB105265155727_012026-F-short-mon-100-boyfriend-meia-coxa-cintura-alta-feminino.webp'
+  ],
+  desc: 'Short Mon 100% boyfriend, meia coxa, cintura alta feminino. Conforto e estilo.'
+});
+
+// produto adicionado pelo usuário: Short Feminino Social Com Cinto Alfaiataria Trabalho
+products.push({
+  id: 34,
+  name: 'Short Feminino Social Com Cinto Alfaiataria Trabalho',
+  category: 'Shorts',
+  price: 'R$ 72,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_968520-MLB97760655610_112025-F-short-feminino-social-com-cinto-alfaiataria-trabalho.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_821890-MLB98329560087_112025-F-short-feminino-social-com-cinto-alfaiataria-trabalho.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_904783-MLB106519533347_022026-F-short-feminino-social-com-cinto-alfaiataria-trabalho.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_869800-MLB97127497727_112025-F-short-feminino-social-com-cinto-alfaiataria-trabalho.webp'
+  ],
+  desc: 'Short feminino social alfaiataria com cinto, ideal para trabalho.'
+});
+
+// produto adicionado pelo usuário: Short Jeans Feminino Shorts Cargo Com Lycra Cintura Alta
+products.push({
+  id: 35,
+  name: 'Short Jeans Feminino Shorts Cargo Com Lycra Cintura Alta',
+  category: 'Shorts',
+  price: 'R$ 68,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_923324-MLB84691819699_052025-F-short-jeans-feminino-shorts-cargo-com-lycra-cintura-alta.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_625543-MLB81355649599_122024-F-short-jeans-feminino-shorts-cargo-com-lycra-cintura-alta.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_695378-MLB82609039933_022025-F-short-jeans-feminino-shorts-cargo-com-lycra-cintura-alta.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_678750-MLB100595163276_122025-F-short-jeans-feminino-shorts-cargo-com-lycra-cintura-alta.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_990641-MLB95101840689_102025-F-short-jeans-feminino-shorts-cargo-com-lycra-cintura-alta.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_746243-MLB81351584343_122024-F-short-jeans-feminino-shorts-cargo-com-lycra-cintura-alta.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_820689-MLB80497839667_112024-F-short-jeans-feminino-shorts-cargo-com-lycra-cintura-alta.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_838072-MLB82608978505_022025-F-short-jeans-feminino-shorts-cargo-com-lycra-cintura-alta.webp'
+  ],
+  desc: 'Short Jeans Feminino modelo Cargo com Lycra e Cintura Alta.'
+});
+
+// produto adicionado pelo usuário: Liquidificador Turbo Power Mondial 550W L-99 FR
+products.push({
+  id: 36,
+  name: 'Liquidificador Turbo Power Mondial 550W L-99 FR',
+  category: 'Eletroportáteis',
+  price: 'R$ 138,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_619525-MLA99455849002_112025-F.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_745491-MLA100000195535_112025-F.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_614073-MLA99854241169_112025-F.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_975041-MLA99992396177_112025-F.webp'
+  ],
+  desc: 'Liquidificador Turbo Power Mondial 550W L-99 FR, potente e resistente.'
 });
 
 // Elementos do DOM
