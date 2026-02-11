@@ -150,8 +150,51 @@ const products = [
       'https://http2.mlstatic.com/D_NQ_NP_2X_627968-MLB93840299632_102025-F-mochila-escolar-femenina-com-bicho-de-pelucia-ursinho.webp'
     ],
     desc: 'Mochila escolar feminina com bicho de pelúcia ursinho. Charmosa e funcional.'
+  },
+  {
+    id: 14,
+    name: 'Tênis Masculino Para Academia E Caminhada Esportivo E Macio',
+    category: 'Tênis',
+    price: 'R$ 95,90',
+    images: [
+      'https://http2.mlstatic.com/D_NQ_NP_2X_955110-MLB86398100931_062025-F-tnis-masculino-para-academia-e-caminhada-esportivo-e-macio.webp',
+      'https://http2.mlstatic.com/D_NQ_NP_2X_972431-MLB86082113940_062025-F-tnis-masculino-para-academia-e-caminhada-esportivo-e-macio.webp',
+      'https://http2.mlstatic.com/D_NQ_NP_2X_602411-MLB86082113918_062025-F-tnis-masculino-para-academia-e-caminhada-esportivo-e-macio.webp'
+    ],
+    desc: 'Tênis masculino esportivo e macio, indicado para academia e caminhada. Conforto e suporte para treinos.'
+  },
+  {
+    id: 15,
+    name: 'Vestido Alfaiataria Elegante Sofisticado Básico Perfeito',
+    category: 'Vestidos',
+    price: 'R$ 94,90',
+    images: [
+      'https://http2.mlstatic.com/D_NQ_NP_2X_906708-MLB103251885427_122025-F-vestido-alfaiataria-elegante-sofisticado-basico-perfeito.webp',
+      'https://http2.mlstatic.com/D_NQ_NP_2X_798524-MLB103251885723_122025-F-vestido-alfaiataria-elegante-sofisticado-basico-perfeito.webp',
+      'https://http2.mlstatic.com/D_NQ_NP_2X_759601-MLB103416831941_012026-F-vestido-alfaiataria-elegante-sofisticado-basico-perfeito.webp',
+      'https://http2.mlstatic.com/D_NQ_NP_2X_717055-MLB103251986649_122025-F-vestido-alfaiataria-elegante-sofisticado-basico-perfeito.webp',
+      'https://http2.mlstatic.com/D_NQ_NP_2X_730541-MLB103250061565_122025-F-vestido-alfaiataria-elegante-sofisticado-basico-perfeito.webp',
+      'https://http2.mlstatic.com/D_NQ_NP_2X_903930-MLB103251418167_122025-F-vestido-alfaiataria-elegante-sofisticado-basico-perfeito.webp'
+    ],
+    desc: 'Vestido de alfaiataria elegante, sofisticado e básico — perfeito para ocasiões formais e trabalho.'
   }
 ];
+
+// Adiciona Vestido Curtinho (novo produto)
+products.push({
+  id: 16,
+  name: 'Vestido Curtinho Feminino Elegante Casual Premium Mg Brand',
+  category: 'Vestidos',
+  price: 'R$ 93,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_965435-MLB102906956584_012026-F-vestido-curtinho-feminino-elegante-casual-premium-mg-brand.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_767017-MLB102905221490_012026-F-vestido-curtinho-feminino-elegante-casual-premium-mg-brand.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_974044-MLB103419965847_012026-F-vestido-curtinho-feminino-elegante-casual-premium-mg-brand.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_960576-MLB103419969439_012026-F-vestido-curtinho-feminino-elegante-casual-premium-mg-brand.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_832201-MLB103419658919_012026-F-vestido-curtinho-feminino-elegante-casual-premium-mg-brand.webp'
+  ],
+  desc: 'Vestido curtinho feminino elegante e casual, premium MG Brand. Ideal para looks do dia a dia e eventos.'
+});
 
 // produto adicionado: Tênis Feminino Polo
 products.push({
@@ -266,6 +309,37 @@ products.push({
     'https://http2.mlstatic.com/D_NQ_NP_2X_955908-MLB102476559130_122025-F-vestido-feminino-midi-manga-curta-acinturado-modelador-vero.webp'
   ],
   desc: 'Vestido mídi acinturado com manga curta, modelador, ideal para verão.'
+});
+
+// produto novo: Vestido Curto Feminino Balada Festa Luxo Promoção Elegante
+products.push({
+  id: 21,
+  name: 'Vestido Curto Feminino Balada Festa Luxo Promoção Elegante',
+  category: 'Vestidos',
+  price: 'R$ 94,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_993478-MLB96531780151_102025-F-vestido-curto-feminino-balada-festa-luxo-promoco-elegante.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_742949-MLA105326505778_012026-F-vestido-curto-feminino-balada-festa-luxo-promoco-elegante.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_966705-MLB106118136962_022026-F-vestido-curto-feminino-balada-festa-luxo-promoco-elegante.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_947411-MLB106746305573_022026-F-vestido-curto-feminino-balada-festa-luxo-promoco-elegante.webp'
+  ],
+  desc: 'Vestido curto feminino ideal para balada e festas; luxo e elegância em promoção.'
+});
+
+// produto novo: Vestido Curto Ajustado Decote V Profundo Bodycon Sexy Festa
+products.push({
+  id: 22,
+  name: 'Vestido Curto Ajustado Decote V Profundo Bodycon Sexy Festa',
+  category: 'Vestidos',
+  price: 'R$ 88,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_725658-MLB97312889289_112025-F.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_607965-MLB98348401373_112025-F.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_762756-MLB106595199651_022026-F.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_999282-MLB98504288463_112025-F.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_896682-MLB94889155549_102025-F.webp'
+  ],
+  desc: 'Vestido curto ajustado com decote V profundo, bodycon sexy para festas e ocasiões noturnas.'
 });
 
 // Elementos do DOM

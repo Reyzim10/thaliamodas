@@ -141,7 +141,7 @@ img{height:auto}
 .modal-close{position:absolute;right:12px;top:8px;background:transparent;border:0;color:#fff;font-size:26px;cursor:pointer}
 .modal-body{display:flex;flex-direction:column;padding:18px;gap:14px}
 @media(min-width:760px){.modal-body{flex-direction:row}}
-.modal-image{width:100%;max-width:420px;border-radius:10px;object-fit:cover}
+.modal-image{width:100%;max-width:420px;border-radius:10px;object-fit:contain;max-height:80vh}
 .modal-info{flex:1;padding:6px 10px}
 .modal-price{color:var(--pink);font-weight:800;font-size:18px}
 .modal-actions{display:flex;gap:10px;margin-top:12px}
@@ -201,3 +201,15 @@ img{height:auto}
 }
 
 @media print{.whatsapp-float{display:none}}
+
+/* Ajustes do modal para telas pequenas: tornar rolável e manter botões visíveis */
+@media(max-width:760px){
+  .modal{align-items:flex-start;padding:12px;}
+  .modal-panel{max-height:calc(100vh - 24px);overflow:auto;display:flex;flex-direction:column;}
+  .modal-body{flex:1;display:flex;flex-direction:column;gap:12px;padding:12px}
+  .modal-image{width:100%;max-height:45vh;object-fit:contain;border-radius:8px}
+  .modal-info{padding:8px}
+  .modal-close{position:sticky;top:8px;right:8px;z-index:120}
+  /* Mantém as ações sempre visíveis no fundo do modal ao rolar */
+  .modal-actions{position:sticky;bottom:0;background:linear-gradient(180deg, rgba(11,11,11,0), rgba(11,11,11,0.85));padding:10px 8px;border-top:1px solid rgba(255,255,255,0.03);z-index:110;display:flex;justify-content:flex-start}
+}
