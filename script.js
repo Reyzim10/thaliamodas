@@ -507,6 +507,44 @@ products.push({
   desc: 'Liquidificador Turbo Power Mondial 550W L-99 FR, potente e resistente.'
 });
 
+// produto adicionado pelo usuário: Mochila De Viagem Para Laptop De Grande Capacidade
+products.push({
+  id: 37,
+  name: 'Mochila De Viagem Para Laptop De Grande Capacidade',
+  category: 'Mochilas',
+  price: 'R$ 88,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_621342-MLB101920683444_122025-F.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_719556-MLB101920683448_122025-F.webp'
+  ],
+  desc: 'Mochila de viagem para laptop de grande capacidade, ideal para viagens e trabalho.'
+});
+
+// produto adicionado pelo usuário: Sachê 1Kg Creatina 100% Pura Pouch Integralmédica
+products.push({
+  id: 38,
+  name: 'Sachê 1Kg Creatina 100% Pura Pouch Integralmédica',
+  category: 'Suplementos',
+  price: 'R$ 149,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_779449-MLA100012609239_122025-F.webp'
+  ],
+  desc: 'Sachê 1Kg Creatina 100% Pura Pouch Integralmédica, ideal para ganho de força e desempenho.'
+});
+
+// produto adicionado pelo usuário: Creatina Monohidratada Pura 500g Dark Lab
+products.push({
+  id: 39,
+  name: 'Creatina Monohidratada Pura 500g Dark Lab',
+  category: 'Suplementos',
+  price: 'R$ 89,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_942122-MLA99923169249_112025-F.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_650578-MLU78119917021_082024-F.webp'
+  ],
+  desc: 'Creatina Monohidratada Pura 500g Dark Lab.'
+});
+
 // Elementos do DOM
 const productsGrid = document.getElementById('productsGrid');
 const modal = document.getElementById('productModal');
