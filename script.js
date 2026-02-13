@@ -545,6 +545,203 @@ products.push({
   desc: 'Creatina Monohidratada Pura 500g Dark Lab.'
 });
 
+// produto adicionado pelo usuário: Mochila Escolar Grande Reforçada Para Trabalho E Viagem Preto Liso
+products.push({
+  id: 40,
+  name: 'Mochila Escolar Grande Reforçada Para Trabalho E Viagem Preto Liso',
+  category: 'Mochilas',
+  price: 'R$ 93,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_771910-MLB106943685635_022026-F.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_731354-MLB104277506699_012026-F.webp'
+  ],
+  desc: 'Mochila Escolar Grande Reforçada Para Trabalho E Viagem Preto Liso.'
+});
+
+// produto adicionado pelo usuário: Mochila Feminina Huina Myb Antifurto Moderna P/ Notebook Preta
+products.push({
+  id: 41,
+  name: 'Mochila Feminina Huina Myb Antifurto Moderna P/ Notebook Preta',
+  category: 'Mochilas',
+  price: 'R$ 94,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_934210-MLA100004890865_112025-F.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_648035-MLA92449626858_092025-F.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_951555-MLA92858423481_092025-F.webp'
+  ],
+  desc: 'Mochila Feminina Huina Myb Antifurto Moderna P/ Notebook Preta.'
+});
+
+// produto adicionado pelo usuário: Mochila Feminina Escolar Reforçada Grande Impermeável Notebook Resistente Masculina Trabalho Faculdade Com Estojo
+products.push({
+  id: 42,
+  name: 'Mochila Feminina Escolar Reforçada Grande Impermeável Notebook Resistente Masculina Trabalho Faculdade Com Estojo',
+  category: 'Mochilas',
+  price: 'R$ 88,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_767308-MLA103896619201_012026-F.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_984014-MLA103466291616_012026-F.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_870860-MLA105855942049_012026-F.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_645257-MLA101658859892_122025-F.webp'
+  ],
+  desc: 'Mochila Feminina Escolar Reforçada Grande Impermeável, ideal para notebook, trabalho e faculdade. Acompanha estojo.'
+});
+
+// produto adicionado pelo usuário: Mochila Escolar Infantil Para Menina Personagens
+products.push({
+  id: 43,
+  name: 'Mochila Escolar Infantil Para Menina Personagens',
+  category: 'Mochilas',
+  price: 'R$ 73,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_835848-MLB90661978445_082025-F-mochila-escolar-infantil-para-menina-personagens.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_915356-MLB85600782853_062025-F-mochila-escolar-infantil-para-menina-personagens.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_891647-MLB90277238882_082025-F-mochila-escolar-infantil-para-menina-personagens.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_692696-MLB85601159057_062025-F-mochila-escolar-infantil-para-menina-personagens.webp'
+  ],
+  desc: 'Mochila Escolar Infantil Para Menina Personagens.'
+});
+
+// produto adicionado pelo usuário: Mochila Feminina Spector Passeio 16l Notebook Kawaii Preto Liso
+products.push({
+  id: 44,
+  name: 'Mochila Feminina Spector Passeio 16l Notebook Kawaii Preto Liso',
+  category: 'Mochilas',
+  price: 'R$ 109,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_967596-MLB93901175221_102025-F.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_617180-MLB93480729938_102025-F.webp'
+  ],
+  desc: 'Mochila Feminina Spector Passeio 16l Notebook Kawaii Preto Liso.'
+});
+
+// produto adicionado pelo usuário: Fritadeira Air Fryer Britânia Baf45a 5l 1500w Cor Preto
+products.push({
+  id: 45,
+  name: 'Fritadeira Air Fryer Britânia Baf45a 5l 1500w Cor Preto',
+  category: 'Eletroportáteis',
+  price: 'R$ 359,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_673085-MLA99956176887_112025-F.webp'
+  ],
+  desc: 'Fritadeira Air Fryer Britânia Baf45a 5l 1500w Cor Preto.'
+});
+
+// produto adicionado pelo usuário: Air Fryer Philco 5,5l Cesto Quadrado 1500w Paf55a Cor Preto
+products.push({
+  id: 46,
+  name: 'Air Fryer Philco 5,5l Cesto Quadrado 1500w Paf55a Cor Preto',
+  category: 'Eletroportáteis',
+  price: 'R$ 489,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_852936-MLA99499880858_112025-F.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_884320-MLA88337770721_072025-F.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_933143-MLA84850492043_052025-F.webp'
+  ],
+  desc: 'Air Fryer Philco 5,5l Cesto Quadrado 1500w Paf55a Cor Preto.'
+});
+
+// produto adicionado pelo usuário: Calça Jeans Feminina Cargo Levanta Bumbum Cintura Alta 100%
+products.push({
+  id: 47,
+  name: 'Calça Jeans Feminina Cargo Levanta Bumbum Cintura Alta 100%',
+  category: 'Calças',
+  price: 'R$ 109,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_920184-MLB83916039702_042025-F-calca-jeans-feminina-cargo-levanta-bumbum-cintura-alta-100.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_692127-MLB83916254798_042025-F-calca-jeans-feminina-cargo-levanta-bumbum-cintura-alta-100.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_758807-MLB83916040020_042025-F-calca-jeans-feminina-cargo-levanta-bumbum-cintura-alta-100.webp'
+  ],
+  desc: 'Calça Jeans Feminina Cargo Levanta Bumbum Cintura Alta 100%.'
+});
+
+// produto adicionado pelo usuário: Smart Tv Samsung LS32BETBLGGXZD 32" HD Led
+products.push({
+  id: 48,
+  name: 'Smart Tv Samsung LS32BETBLGGXZD 32" HD Led',
+  category: 'Televisores',
+  price: 'R$ 1.088,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_959706-MLA99950013507_112025-F.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_814950-MLU77145775508_062024-F.webp'
+  ],
+  desc: 'Smart Tv Samsung LS32BETBLGGXZD 32" HD Led.'
+});
+
+// produto adicionado pelo usuário: Smart Tv 32 Philco Ptv32k34rkgb Roku Tv Led Dolby Audio
+products.push({
+  id: 49,
+  name: 'Smart Tv 32 Philco Ptv32k34rkgb Roku Tv Led Dolby Audio',
+  category: 'Televisores',
+  price: 'R$ 998,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_681053-MLA99382614472_112025-F.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_864527-MLA88319892049_072025-F.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_792929-MLU78645538111_082024-F.webp'
+  ],
+  desc: 'Smart Tv 32 Philco Ptv32k34rkgb Roku Tv Led Dolby Audio.'
+});
+
+// produto adicionado pelo usuário: Principia Kit Gel de Limpeza GL-01 + Protetor Solar Facial PS-01 FPS 60
+products.push({
+  id: 50,
+  name: 'Principia Kit Gel de Limpeza GL-01 + Protetor Solar Facial PS-01 FPS 60',
+  category: 'Cuidados Pessoais',
+  price: 'R$ 118,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_908971-MLA103561914983_012026-F.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_604685-MLA100243937098_122025-F.webp'
+  ],
+  desc: 'Principia Kit Gel de Limpeza GL-01 + Protetor Solar Facial PS-01 FPS 60.'
+});
+
+// produto adicionado pelo usuário: Kit 2 Short Cargo Feminino Moletinho Verão Esporte Blogueira
+products.push({
+  id: 51,
+  name: 'Kit 2 Short Cargo Feminino Moletinho Verão Esporte Blogueira',
+  category: 'Shorts',
+  price: 'R$ 88,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_813303-MLB96791343064_112025-F.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_910329-MLB97505625720_112025-F.webp'
+  ],
+  desc: 'Kit 2 Short Cargo Feminino Moletinho Verão Esporte Blogueira.'
+});
+
+// produto adicionado pelo usuário: Shorts Feminino Meia Coxa Alfaiataria Cintura Alta Verão
+products.push({
+  id: 52,
+  name: 'Shorts Feminino Meia Coxa Alfaiataria Cintura Alta Verão',
+  category: 'Shorts',
+  price: 'R$ 68,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_657103-MLA107203821839_022026-F-shorts-feminino-meia-coxa-alfaiataria-cintura-alta-vero.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_972870-MLA106556641248_022026-F-shorts-feminino-meia-coxa-alfaiataria-cintura-alta-vero.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_988019-MLA106556366922_022026-F-shorts-feminino-meia-coxa-alfaiataria-cintura-alta-vero.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_808526-MLB95510515730_102025-F-shorts-feminino-meia-coxa-alfaiataria-cintura-alta-vero.webp'
+  ],
+  desc: 'Shorts Feminino Meia Coxa Alfaiataria Cintura Alta Verão.'
+});
+
+// produto adicionado pelo usuário: Short Feminino Social Cinto Alfaiataria Tendência Atual
+products.push({
+  id: 53,
+  name: 'Short Feminino Social Cinto Alfaiataria Tendência Atual',
+  category: 'Shorts',
+  price: 'R$ 58,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_887761-MLB80427597203_112024-F-short-feminino-social-cinto-alfaiataria-tendncia-atual.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_701589-MLB85576804302_062025-F-short-feminino-social-cinto-alfaiataria-tendncia-atual.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_869280-MLB85662752705_062025-F-short-feminino-social-cinto-alfaiataria-tendncia-atual.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_613919-MLB85662772051_062025-F-short-feminino-social-cinto-alfaiataria-tendncia-atual.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_652863-MLB85575368100_062025-F-short-feminino-social-cinto-alfaiataria-tendncia-atual.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_769632-MLB80170822978_112024-F-short-feminino-social-cinto-alfaiataria-tendncia-atual.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_712448-MLB85358160330_062025-F-short-feminino-social-cinto-alfaiataria-tendncia-atual.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_674347-MLB85358632064_062025-F-short-feminino-social-cinto-alfaiataria-tendncia-atual.webp'
+  ],
+  desc: 'Short Feminino Social Cinto Alfaiataria Tendência Atual.'
+});
+
 // Elementos do DOM
 const productsGrid = document.getElementById('productsGrid');
 const modal = document.getElementById('productModal');
