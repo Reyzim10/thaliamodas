@@ -742,6 +742,122 @@ products.push({
   desc: 'Short Feminino Social Cinto Alfaiataria Tendência Atual.'
 });
 
+// produto adicionado pelo usuário: Celular Samsung Galaxy A07 128gb
+products.push({
+  id: 54,
+  name: 'Celular Samsung Galaxy A07 128gb, 4gb, Câmera 50mp, Tela 6.7 , Proteção Ip54, Processador 6nm - Preto',
+  category: 'Celulares',
+  price: 'R$ 728,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_678247-MLA99491753898_112025-F.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_712741-MLA96423997982_102025-F.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_765861-MLA95532186080_102025-F.webp'
+  ],
+  desc: 'Celular Samsung Galaxy A07 128gb, 4gb, Câmera 50mp, Tela 6.7 , Proteção Ip54, Processador 6nm - Preto'
+});
+
+// produto adicionado pelo usuário: Apple iPhone 15 (Memoria 128 GB)
+products.push({
+  id: 55,
+  name: 'Apple iPhone 15 (Memoria 128 GB) - 6GB Ram',
+  category: 'Celulares',
+  price: 'R$ 4.588,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_831434-MLA96401363339_102025-F.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_934652-MLA96402035283_102025-F.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_680991-MLA95497804976_102025-F.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_709183-MLA95936544325_102025-F.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_652389-MLA95937614887_102025-F.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_823318-MLA95936980071_102025-F.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_634723-MLA95496999820_102025-F.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_889040-MLA95936409635_102025-F.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_801318-MLA95935557497_102025-F.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_706660-MLA95935557509_102025-F.webp'
+  ],
+  desc: 'Apple iPhone 15 (Memoria 128 GB) - 6GB Ram'
+});
+
+// produto adicionado pelo usuário: Vestido Curto Em Ribana Rovitex Preto
+products.push({
+  id: 56,
+  name: 'Vestido Curto Em Ribana Rovitex Preto',
+  category: 'Vestidos',
+  price: 'R$ 97,50',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_838639-MLB106541016935_022026-F-vestido-curto-em-ribana-rovitex-preto.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_926392-MLB101234722234_122025-F-vestido-curto-em-ribana-rovitex-preto.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_701297-MLB101234722232_122025-F-vestido-curto-em-ribana-rovitex-preto.webp'
+  ],
+  desc: 'Vestido Curto Em Ribana Rovitex Preto'
+});
+
+// produto adicionado: Vestido Alcinha Diversas Cores Premium
+products.push({
+  id: 57,
+  name: 'Vestido Alcinha Diversas Cores Premium',
+  category: 'Vestidos',
+  price: 'R$ 68,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_893747-MLB84553987437_052025-F-vestido-alcinha-diversas-cores-premium-gestante-amamentaco.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_693612-MLB77817926827_072024-F-vestido-alcinha-diversas-cores-premium-gestante-amamentaco.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_893383-MLB84256313694_052025-F-vestido-alcinha-diversas-cores-premium-gestante-amamentaco.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_928861-MLB77817926755_072024-F-vestido-alcinha-diversas-cores-premium-gestante-amamentaco.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_899413-MLB84553324567_052025-F-vestido-alcinha-diversas-cores-premium-gestante-amamentaco.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_637791-MLB84256502684_052025-F-vestido-alcinha-diversas-cores-premium-gestante-amamentaco.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_893148-MLB84256810206_052025-F-vestido-alcinha-diversas-cores-premium-gestante-amamentaco.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_647946-MLB84256810476_052025-F-vestido-alcinha-diversas-cores-premium-gestante-amamentaco.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_769747-MLB84553364323_052025-F-vestido-alcinha-diversas-cores-premium-gestante-amamentaco.webp'
+  ],
+  desc: 'Vestido Alcinha Diversas Cores Premium'
+});
+
+// produto adicionado: Vestido 4 Em 1 Soltinho Cores Premium
+products.push({
+  id: 58,
+  name: 'Vestido 4 Em 1 Soltinho Cores Premium',
+  category: 'Vestidos',
+  price: 'R$ 77,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_809993-MLB84577189141_052025-F-vestido-4-em-1-soltinho-cores-premium-gestante-amamentaco.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_885352-MLB84306711458_052025-F-vestido-4-em-1-soltinho-cores-premium-gestante-amamentaco.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_900648-MLB84604257447_052025-F-vestido-4-em-1-soltinho-cores-premium-gestante-amamentaco.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_800086-MLB84306524492_052025-F-vestido-4-em-1-soltinho-cores-premium-gestante-amamentaco.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_939396-MLB84603852021_052025-F-vestido-4-em-1-soltinho-cores-premium-gestante-amamentaco.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_620601-MLB84604111679_052025-F-vestido-4-em-1-soltinho-cores-premium-gestante-amamentaco.webp'
+  ],
+  desc: 'Vestido 4 Em 1 Soltinho Cores Premium'
+});
+
+// produto adicionado: Kit 2 Pares Tênis Feminino Casual Confortável
+products.push({
+  id: 59,
+  name: 'Kit 2 Pares Tênis Feminino Casual Confortável',
+  category: 'Tênis',
+  price: 'R$ 148,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_828541-MLB97536840723_112025-F-kit-2-pares-tnis-feminino-casual-confortavel-dia-a-dia.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_652894-MLB97079486256_112025-F-kit-2-pares-tnis-feminino-casual-confortavel-dia-a-dia.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_659623-MLB97078514382_112025-F-kit-2-pares-tnis-feminino-casual-confortavel-dia-a-dia.webp'
+  ],
+  desc: 'Kit 2 Pares Tênis Feminino Casual Confortável'
+});
+
+// produto adicionado: Tenis Femininos Branco Casual Borboleta Sapato
+products.push({
+  id: 60,
+  name: 'Tenis Femininos Branco Casual Borboleta Sapato',
+  category: 'Tênis',
+  price: 'R$ 126,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_754813-MLB77888775620_082024-F-tenis-femininos-branco-casual-borboleta-sapato.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_949742-MLB86948348992_072025-F-tenis-femininos-branco-casual-borboleta-sapato.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_887091-MLB77888648026_082024-F-tenis-femininos-branco-casual-borboleta-sapato.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_952255-MLB92984146644_092025-F-tenis-femininos-branco-casual-borboleta-sapato.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_992264-MLB77888776170_082024-F-tenis-femininos-branco-casual-borboleta-sapato.webp'
+  ],
+  desc: 'Tenis Femininos Branco Casual Borboleta Sapato'
+});
+
 // Elementos do DOM
 const productsGrid = document.getElementById('productsGrid');
 const modal = document.getElementById('productModal');
