@@ -858,6 +858,110 @@ products.push({
   desc: 'Tenis Femininos Branco Casual Borboleta Sapato'
 });
 
+// produto adicionado: Tênis Feminino Branco Básico Coração Conforto E Estilo
+products.push({
+  id: 61,
+  name: 'Tênis Feminino Branco Básico Coração Conforto E Estilo',
+  category: 'Tênis',
+  price: 'R$ 85,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_720053-MLB83517441051_042025-F-tnis-feminino-branco-basico-coraco-conforto-e-estilo.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_924443-MLB83517242849_042025-F-tnis-feminino-branco-basico-coraco-conforto-e-estilo.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_962841-MLB83517440201_042025-F-tnis-feminino-branco-basico-coraco-conforto-e-estilo.webp'
+  ],
+  desc: 'Tênis Feminino Branco Básico Coração Conforto E Estilo'
+});
+
+// produto adicionado: Tênis Feminino Moleca Casual Plataforma Confortável Original
+products.push({
+  id: 62,
+  name: 'Tênis Feminino Moleca Casual Plataforma Confortável Original',
+  category: 'Tênis',
+  price: 'R$ 96,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_670472-MLB93290721806_092025-F-tnis-feminino-moleca-casual-plataforma-confortavel-original.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_830204-MLB93710234965_092025-F-tnis-feminino-moleca-casual-plataforma-confortavel-original.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_708584-MLB93707962681_092025-F-tnis-feminino-moleca-casual-plataforma-confortavel-original.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_915559-MLB93290221900_092025-F-tnis-feminino-moleca-casual-plataforma-confortavel-original.webp'
+  ],
+  desc: 'Tênis Feminino Moleca Casual Plataforma Confortável Original'
+});
+
+// produto adicionado: Tênis Moleca Feminino Com Ilhós Dourado E Design Moderno
+products.push({
+  id: 63,
+  name: 'Tênis Moleca Feminino Com Ilhós Dourado E Design Moderno',
+  category: 'Tênis',
+  price: 'R$ 87,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_789713-MLB97005469392_112025-F-tnis-moleca-feminino-com-ilhos-dourado-e-design-moderno.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_978560-MLB97005402718_112025-F-tnis-moleca-feminino-com-ilhos-dourado-e-design-moderno.webp'
+  ],
+  desc: 'Tênis Moleca Feminino Com Ilhós Dourado E Design Moderno'
+});
+
+// produto adicionado: Tênis Feminino Botinha Preto Casual Cano Alto Couro Estiloso
+products.push({
+  id: 64,
+  name: 'Tênis Feminino Botinha Preto Casual Cano Alto Couro Estiloso',
+  category: 'Tênis',
+  price: 'R$ 88,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_641732-MLB95240536775_102025-F-tnis-feminino-botinha-preto-casual-cano-alto-couro-estiloso.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_827343-MLB94806975250_102025-F-tnis-feminino-botinha-preto-casual-cano-alto-couro-estiloso.webp'
+  ],
+  desc: 'Tênis Feminino Botinha Preto Casual Cano Alto Couro Estiloso'
+});
+
+// produto adicionado: Tênis Botinha Feminina Cano Alto Moda
+products.push({
+  id: 65,
+  name: 'Tênis Botinha Feminina Cano Alto Moda',
+  category: 'Tênis',
+  price: 'R$ 88,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_748622-MLB93918168304_102025-F.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_750431-MLB89972389215_082025-F.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_640358-MLB85526431139_062025-F.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_687131-MLB85222398750_062025-F.webp'
+  ],
+  desc: 'Tênis Botinha Feminina Cano Alto Moda'
+});
+
+// produto adicionado: Tênis Feminino Casual Plataforma Sapatênis + Meia
+products.push({
+  id: 66,
+  name: 'Tênis Feminino Casual Plataforma Sapatênis + Meia',
+  category: 'Tênis',
+  price: 'R$ 88,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_775382-MLB94663401103_102025-F-kit-tnis-feminino-casual-plataforma-sapatnis-meia.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_742694-MLB90833212010_082025-F-kit-tnis-feminino-casual-plataforma-sapatnis-meia.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_759269-MLB94234791326_102025-F-kit-tnis-feminino-casual-plataforma-sapatnis-meia.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_762787-MLB90833666056_082025-F-kit-tnis-feminino-casual-plataforma-sapatnis-meia.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_835173-MLB94235050286_102025-F-kit-tnis-feminino-casual-plataforma-sapatnis-meia.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_835173-MLB94235050286_102025-F-kit-tnis-feminino-casual-plataforma-sapatnis-meia.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_621916-MLB91223232823_082025-F-kit-tnis-feminino-casual-plataforma-sapatnis-meia.webp'
+  ],
+  desc: 'Tênis Feminino Casual Plataforma Sapatênis + Meia'
+});
+
+// produto adicionado: Tenis Feminino Casual Kalum Force 001 Confortavel Sola Reta
+products.push({
+  id: 67,
+  name: 'Tenis Feminino Casual Kalum Force 001 Confortavel Sola Reta',
+  category: 'Tênis',
+  price: 'R$ 88,90',
+  images: [
+    'https://http2.mlstatic.com/D_NQ_NP_2X_807014-MLB84554668036_052025-F-tenis-feminino-casual-kalum-force-001-confortavel-sola-reta.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_814732-MLB84853255539_052025-F-tenis-feminino-casual-kalum-force-001-confortavel-sola-reta.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_659976-MLB84554608482_052025-F-tenis-feminino-casual-kalum-force-001-confortavel-sola-reta.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_611659-MLB84554625086_052025-F-tenis-feminino-casual-kalum-force-001-confortavel-sola-reta.webp',
+    'https://http2.mlstatic.com/D_NQ_NP_2X_756339-MLB84554625092_052025-F-tenis-feminino-casual-kalum-force-001-confortavel-sola-reta.webp'
+  ],
+  desc: 'Tenis Feminino Casual Kalum Force 001 Confortavel Sola Reta'
+});
+
 // Elementos do DOM
 const productsGrid = document.getElementById('productsGrid');
 const modal = document.getElementById('productModal');
